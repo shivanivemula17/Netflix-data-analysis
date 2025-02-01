@@ -1,0 +1,86 @@
+functions used in this project
+=========================
+1. head()
+2. tail()
+3. shape
+4. size
+5. columns
+6. dtypes
+7.info()
+8.value_counts()
+9.unique()
+10. nunique()
+11.duplicate()
+12. isnull()
+13. dropna()
+14. isin()
+15. str.contains()
+16. str.split()
+17.to_datetime()
+18. dt.year.value_counts()
+19.groupby()
+20. countplot()
+21. max(), min(), mean()
+
+
+
+operations used in this project
+==========================
+1. creating new columns
+2. creating new dataframe
+3. filtering(single columns)
+4. filtering (multiple columns)
+5. filtering with AND
+6. filtering with OR
+
+
+seaborn
+========
+1.heat graph
+2.bar graph
+
+
+tasks on data
+============
+1.importing data file
+2.getting some basic information about datasets
+3.checking for duplicates in records
+4. removing duplicate records
+5.checking for null values 
+6. removing null values
+
+
+questions on data
+================
+1: For 'House of Cards', what is the show id and who is the director of this show?
+
+2: In which year highest number of the TV Shows & Movies were released? Show with Bar Graph
+
+3:How many movies and TV shows are in the dataset? show with Bar Graph
+
+4: Show all the movies that were released in year 2000
+
+5: show only the titles of all TV shows that were released in india only 
+
+6: show top 10 directors, who gave the highest number of TV shows & movies to netflix
+
+7:show all the records, where "category is movie and type is comedies" or "country is united kingdom" 
+
+8:in how many movies/shows, Tom Cruise was cast
+
+9: what are the different ratings  defined by netflix
+
+9.1: how many movies got the 'TV-14' rating, in canada
+
+9.2: how many tv show got the "R" rating after year 2018
+
+10: what is the maximum duration of a movie/show on netflix
+
+11: which individual country has the highest no. of TV shows
+
+12: how can we sort the dataset by year
+
+13: find all the instances where: 
+i) category is 'movie' and type is 'dramas'
+			or
+ii) category is 'tv show' & type is 'kids' tv'
