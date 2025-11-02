@@ -22,7 +22,7 @@ This project focuses on analyzing Netflix's dataset to uncover patterns, trends,
 ## 📊 Sample Analysis  
 Here are some key insights from the analysis:  
 
-### 🔹 1. Content Trends Over the Years  
+### 🔹 Content Trends Over the Years  
 ```python
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -36,8 +36,16 @@ df['release_year'] = pd.to_datetime(df['release_year'], errors='coerce')
 
 # Plot content distribution by year
 plt.figure(figsize=(10,5))
+
 sns.histplot(df['release_year'].dropna(), bins=20, kde=True, color='red')
 plt.title("Netflix Content Released Over the Years")
 plt.xlabel("Year")
 plt.ylabel("Count")
 plt.show()
+```
+
+<hr>
+<p align="center">
+  <img src="Netflix.jpg" alt="Netflix" width="800">
+</p>
+
